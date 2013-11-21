@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require 'tc2hiera/runner'
+
+runner = Tc2hiera::Runner.new(ARGV)
+runner.run
+
+
+
